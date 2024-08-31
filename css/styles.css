@@ -1,0 +1,215 @@
+body {
+    font-family: 'SUSE', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f4f8;
+}
+
+header {
+    text-align: center; /* Center-align all content in the header */
+    padding: 60px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    display: inline-flex; /* Align the image and text in a line */
+    align-items: center; /* Vertically center the icon and text */
+    font-size: 42px;
+    color: #1c3faa;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.header-icon {
+    width: 40px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: -5px; /* Space between the icon and text */
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.cta button {
+    background-color: #1c3faa;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.cta button:hover {
+    background-color: #163d80;
+}
+
+section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #1c3faa;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature-item {
+    max-width: 300px;
+}
+
+.feature-item img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.white-background {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.white-background h2 {
+    font-size: 28px;
+    color: #1c3faa;
+    margin-bottom: 20px;
+}
+
+.white-background .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.white-background .feature-item {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.cta-background {
+    background-color: #1c3faa;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-background h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-background p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-background .cta button {
+    background-color: #fff;
+    color: #1c3faa;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.cta-background .cta button:hover {
+    background-color: #f0f4f8;
+}
+
+.customisable-background {
+    background-color: #f0f4f8;
+    padding: 40px 20px;
+}
+
+.customisable-background h2 {
+    font-size: 28px;
+    color: #1c3faa;
+    margin-bottom: 20px;
+}
+
+.customisable-background .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.customisable-background .feature-item {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.coming-soon {
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.ready {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+section a.cta-button {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section a.cta-button:hover {
+    background-color: #218838; /* Darker green */
+}
